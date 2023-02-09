@@ -1,0 +1,378 @@
+@font-face {
+    font-family: robotoregular;
+    src: url('fons/Roboto/Roboto-Regular.ttf');
+}
+@font-face{
+    font-family: robotobold;
+    src: url(fons/Roboto/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: revali;
+    src: url(fons/Roboto/Revalia-Regular.ttf);
+}
+@font-face{
+    font-family: robotamedium;
+    src: url(fons/Roboto/Roboto-Medium.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px 0;
+    margin: 0 400px 0 0;
+
+   
+}
+.span1{
+    margin: 0 400px 0 0 ;
+    font-family: revali;
+    color: #34547A;
+    font-size: 48px;
+}
+nav .nav-ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-list {
+    list-style: none;
+}
+
+nav .nav-link {
+    margin: 20px 0 0 0;
+    color: #000;
+    text-decoration: none;
+    font-family: robotoregular;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+img{
+    margin: -30px 0 0 300px;
+    position: relative;
+    z-index: 1px;
+}
+.text1{
+    margin: 45px 0 0 900px;
+    font-size: 48px;
+    font-family: robotamedium;
+}
+.fresh-skrin{
+    
+    width: 100%;
+    height: 700PX;
+    background-color: #EEEFF1;
+}
+.bigtext1{
+    width: 540px;
+    height: 67px;
+    color: #727272;
+    margin: 60px 0 0 900px;
+    font-size: 16px;
+    font-family: robotoregular;
+    position: absolute;
+    
+}
+.clic{
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -30px  0 0 900px;
+}
+.nav-link1{
+    color: #ffff;
+    text-decoration: none;
+    font-family: robotoregular;
+}
+.about-me{
+    width: 540px;
+    height: 150px;
+    margin: 110px 0 0 500px;
+    
+
+
+
+}
+.about-me-text-me{
+    font-size: 32px;
+    font-family: robotamedium;
+    display: flex;
+    justify-content: center;
+    
+}
+.about-long-text-me{
+    font-family: robotoregular;
+    font-size: 16px;
+   margin: 40px;
+   display: flex;
+
+}
+.namber{
+    background-color: #34547A;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0 0;
+    gap: 2px;
+}
+.namber-item1,.namber-item2,.namber-item3,.namber-item4,.namber-item5,.namber-item6{
+ width: 100px;
+ margin:  0 50px;
+}
+
+
+
+
+
+.skill-progress {
+    --procent: 0%;
+    width: 400px;
+    height: 4px;
+    display: flex;
+}
+
+.active {
+    width: var(--procent);
+    height: 100%;
+    background-color: #34547A;
+}
+
+.passive {
+    width: calc(100% - var(--procent));
+    height: 100%;
+    background-color: #C4C4C4;
+}
+.Rectangle3{
+    margin: -300px 0 0 500px;
+    width: 455px;
+    height: 350px;
+}
+
+.skills {
+    margin: 200px  300px  0;
+    display: flex;
+
+    flex-direction: column;
+    
+    gap: 20px;
+}
+.text3{
+    font-size: 32px;
+    font-family: robotamedium;
+}
+.text4{
+    font-size: 16px;
+    font-family: robotoregular;
+}
+.video{
+    width: 540px;
+    height: 150px;
+   
+    
+}
+.text-video{
+    font-size: 32px;
+    font-family: robotamedium;
+    display: flex;
+    margin: 100px 0 50px 0 ;
+    justify-content: center;
+}
+.video-img{
+    width: 1000px;
+    margin: 60px 0 0 -200px;
+    height: 600px;
+    position: relative;
+    
+    
+}
+.text-video-long{
+    font-family: robotoregular;
+}
+.video-icon{
+    position: absolute;
+    top: 2400px;
+    left: 450px;
+    z-index: 10px;
+    color: #000;
+}
+.video-bg{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    
+    width: 100%;
+    height: 1000px;
+    background-color: #EEEFF1;
+}
+.img:active{
+    display: inline-block;
+    background-color: #34547A;
+    background-image: url(Vector\ \(1\).png);
+    
+}
+.img{
+    width: 376.4px;
+    height: 376.4px;
+    margin: 0;
+    background-color: #000;
+    
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project__image {
+    display: inline-block;
+    width: 25%;
+    height: 25vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.project__image .img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.project__image .image--onhover {
+    width: 100%;
+    height: 100%;
+    background-color: #34547AC0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s linear;
+    transform: scale(0);
+}
+
+.project__image:hover .image--onhover {
+    transform: scale(1);
+}
+.clients{
+    margin: 700px 0 0 0;
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clincs{
+    width: 300px;
+    height: 120px;
+    margin: 0 30px;
+}
+.from{
+    padding: 100px 0 200px ;
+    
+    
+    background-color: #EEEFF1;
+}
+.from-text{
+    font-size: 32px;
+    font-family: robotamedium;
+    display: flex;
+    margin: 100px 0 50px 0 ;
+    justify-content: center;
+}
+.from-long-text{
+    width: 540px;
+    height: 150px;
+    font-family: robotoregular;
+    font-size: 16px;
+   margin:0 0 0 500px;
+   display: flex;
+}
+.input1{
+    height: 50px;
+    width: 250px;
+    margin: 0 30px 20px 0;
+    
+    border: none;
+}
+.input2{
+    height: 50px;
+    width: 250px;
+    
+    border: none;
+}
+.input3{
+    height: 170px;
+    width: 540px;
+    border: none;
+    
+}
+.input{
+    
+    width: 540px;
+    height: 220px;
+    margin-left: 500px;
+    
+    border: none;
+}
+.from-bootan{
+    text-decoration: none;
+    margin: 50px  0 0 160px;
+    color: white;
+    width: 190px;
+    height: 55px;
+    background-color: #34547A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: robotoregular;
+}
+.footer{
+    padding: 50px 0 0 0;
+    margin: 300px 0 0 0;
+    width: 100%;
+    height: 150px;
+    background-color: #34547A;
+
+    
+
+    
+}
+.footer-text{
+    font-size: 21px;
+    font-family: robotamedium;
+    color: white;
+    margin: 0 0 0 200px;
+
+}
+.footer-mini-long-text{
+    font-size: 13px;
+    font-family: robotoregular;
+    color: white;
+    margin: 20px 0 0 200px;
+    display: flex;
+
+}
+
+.footer-icin1{
+    margin:  -30px 0 0 1200px;
+}
+.footer-icin2{
+    margin:   -30px 0 0 20px;
+}
+.footer-icin3{
+    margin: -30px 0 0 20px;
+}
